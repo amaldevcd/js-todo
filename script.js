@@ -16,5 +16,5 @@ function show()
     link.innerHTML = t1;
     document.getElementById("list").appendChild(link);
     console.log(t1);
-    document.getElementById("txt-form").value='' 
+    document.getElementById("txt-form").value='' ;
 }
