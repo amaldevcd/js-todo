@@ -3,7 +3,9 @@ document.getElementById('forTodo').style.display= "none";
 
 function show()
 
-{   var x=document.getElementById("forTodo");
+{   
+   
+    var x=document.getElementById("forTodo");
     if(x.style.display=== "none")
     {
         x.style.display= "block";
@@ -14,5 +16,5 @@ function show()
     link.innerHTML = t1;
     document.getElementById("list").appendChild(link);
     console.log(t1);
-
+    document.getElementById("txt-form").value='' 
 }
